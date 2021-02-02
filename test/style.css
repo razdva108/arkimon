@@ -33,7 +33,7 @@ body {
 .nav a {
     text-decoration: none;
     color: #000000;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 15px;
 }
 
@@ -49,26 +49,30 @@ body {
 
 .banner {
     height: 800px;
+    width: 100%;
     background-image: url(img/Slider/Group_83.svg);
     background-repeat: no-repeat;
     background-position: bottom right;
-    background-size: 737px;
+    background-size: 700px;
 }
 
-.h1 {
-    font-size: 18px;
-    color: #9B9B9B;
-    font-weight: 700;
-    line-height: 147%;
+.main__title {
+    font-size: 60px;
+    color: #000000;
+    font-weight: 900;
+    margin-top: 250px;
+    /* line-height: 147%; */
 }
 
-.discriptor {
+.discription {
     color: #9B9B9B;
     font-weight: 700;
     font-size: 18px;
+    margin-top: 50px;
 }
 
 .btn {
+    margin-top: 50px;
     padding: 15.5px 30px;
     margin-bottom: 120px;
     background-color: #414141;
@@ -82,8 +86,3 @@ body {
     height: 53px;
 }
 
-.flex {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
