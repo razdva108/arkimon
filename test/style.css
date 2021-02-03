@@ -2,6 +2,8 @@ body {
     font-family: 'Mulish', sans-serif;
     margin-top: 45px;
     margin-left: 175px;
+    max-width: 1650px;
+    width: 100%;
 }
 
 .header { 
@@ -83,3 +85,23 @@ body {
     height: 53px;
 }
 
+.features {
+}
+.features__body {
+}
+.features__row {
+}
+.features__column {
+}
+.about__item {
+}
+.features__icon {
+}
+.icon {
+}
+.features__subtitle {
+}
+.subtitle {
+}
+.features__text {
+}
