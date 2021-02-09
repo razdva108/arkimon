@@ -193,11 +193,12 @@ body {
 }
 
 .servises__inner {
-    
+    display: flex;
+    flex-direction: column;
 }
 
 .inner {
-    width: 600px;
+    /* width: 600px; */
 }
 .titleh2 {
     font-weight: 800;
@@ -206,29 +207,28 @@ body {
 }
 
 .inner__titleh2 {
-    display: flex;
-    justify-content: end;
     width: 600px;
     margin-left: 700px;
+    margin-top: 126px;
 }
 
 .inner__columnList {
     margin-left: 700px;
-    justify-content: column;
-    
+    width: 600px;
 
 }
 .columnList {
     display: flex;
-    width: 400px;
-    width: 757px;
-    height: 250px;
+    flex-wrap: wrap;
 
 }
 .columnList__item {
     font-weight: bold;
     font-size: 28px;
-    padding-bottom: 40px;
+    padding-right: 30px;
+    padding-left: 0;
+    padding-bottom: 60px;
+    width: 230px;
 }
 .columnList__text {
     text-decoration: none;
